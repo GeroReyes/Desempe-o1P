@@ -84,3 +84,7 @@ button:disabled {
     color: white;
 }
 
+#reset:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
