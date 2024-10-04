@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Gato</title>
+    <link rel="stylesheet" href="gato.css">
+</head>
+<body>
+    <h1>JUEGO DEL GATO</h1>
+    <div id="imagen-inicial">
+        <img src="img/imagen-inicial.png" alt="">
+    </div>
+    <div id="game-container">
+        <div id="players">
+            <input id="player1" type="text" placeholder="Jugador 1" />
+            <img id="player1-img" class="player-img" src="img/R.png" alt="Imagen del Jugador 1">
+            <br></br>
+            <input id="player2" type="text" placeholder="Jugador 2" />
+            <img id="player2-img" class="player-img" src="img/twitter-logo-large.png" alt="Imagen del Jugador 2">
+        </div>
+        <div id="buttons">
+            <button id="reset" disabled>Reiniciar</button>
+            <button id="start" disabled>Jugar</button>
+        </div>
+        <div id="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div id="turn-indicator"></div>
+
+    </div>
+    <script src="gato.js"></script>
+</body>
+</html>
