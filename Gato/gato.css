@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #988080;
 }
 
 input[type="text"] {
@@ -25,7 +25,7 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #28a745;
+    background-color: #107427;
     color: white;
     transition: background-color 0.3s ease;
 }
